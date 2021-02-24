@@ -47,7 +47,8 @@ class ViewController2: UIViewController {
                     DispatchQueue.main.async {
                         self.ImgView.image = img
                     }
-                }.resume()
+                }
+                .resume()
             }
         }
     }
