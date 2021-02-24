@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UITableViewController, UISearchBarDelegate {
 
-    @IBOutlet weak var SchBr: UISearchBar!
+    @IBOutlet private weak var SchBr: UISearchBar!
     
     var repo: [[String: Any]]=[]
     
